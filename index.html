@@ -1,0 +1,38 @@
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>НЕ СМОТРИ НАЗАД</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Эффект шума на фоне -->
+    <div class="noise-overlay"></div>
+    
+    <!-- Виньетка (затемнение по краям) -->
+    <div class="vignette"></div>
+
+    <div class="container">
+        <h1 class="glitch-title" data-text="ТЫ ПРИШЕЛ СЮДА...">ТЫ ПРИШЕЛ СЮДА...</h1>
+        
+        <p class="typewriter-text" id="story-text"></p>
+
+        <div class="interaction-zone">
+            <button id="scary-btn">НЕ НАЖИМАТЬ</button>
+            <div id="hidden-message" class="hidden-msg"></div>
+        </div>
+
+        <div class="eyes" id="eyes">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+        </div>
+    </div>
+
+    <!-- Звуковой контейнер (визуальный) -->
+    <div class="pulse-ring"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
